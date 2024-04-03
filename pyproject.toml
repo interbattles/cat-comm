@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cat-comm"
+version = "0.1.0"
+description = ""
+authors = ["devin @ 9j5.on.discord"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
